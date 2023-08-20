@@ -23,3 +23,27 @@ Design patternn can speed up the development process by providing tested, proven
 | | | Template Method |
 | | | Visitor |
 
+
+
+---
+
+
+
+# SOLID Design principles
+Set of best practices, transformed into a set of rules after dozens of years of cumilative development experience around the world done by softare professionals
+
+## Single responsibility principle
+- Single object in object oriented programming should me made for one specific function.
+- A Class should have one and one and only reason to change.
+
+## Open-Closed principle
+- Software entities should be open for extension, but closed for modification.
+
+## Liskov Substitution principle
+- Subclass should be substitutable for their base class 
+
+## Interface Segragation principle
+- Many Client-Spescific Interfaces are better than a single General-Purpose Interface.
+
+## Dependency Inversion principle
+- Class should depend upon interfaces or abstract classes instead of concreate class and functions.

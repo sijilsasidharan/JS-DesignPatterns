@@ -66,3 +66,7 @@ john.address.city = 'United States';
 
 console.log(john.toString());
 console.log(jane.toString());
+
+//*** Problems ******/
+// For every object we have to implement deep copy object
+// This will break open close and single responsibility principle

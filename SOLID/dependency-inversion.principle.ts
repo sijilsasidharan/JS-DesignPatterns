@@ -3,7 +3,7 @@
 // Prpoblem
 // Here we create a relationship class(LOW-LEVEL) which keeps data of peoples realtionships
 // the problem here is the relationship class(HIGH-LEVEL) which is dependend on of data of LOW LEVEL class.
-// basically HIGH-LEVEL Module depended on LOW-LEVEL modules. (Field DIP)
+// basically HIGH-LEVEL Module depended on LOW-LEVEL modules. (Failed DIP)
 const Relationship = Object.freeze({
     parent: 0,
     child: 1,
@@ -84,7 +84,7 @@ class RelationshipsSol extends RelationshipBrowser {
 class ResearchSol {
     constructor(browser: RelationshipBrowser) {
         // fing all children of John
-        for (let rel of browser.findAllChildrenOf('Jphn')) {
+        for (let rel of browser.findAllChildrenOf('John')) {
             console.log(`John has a child name ${rel.name}`);
         }
     }

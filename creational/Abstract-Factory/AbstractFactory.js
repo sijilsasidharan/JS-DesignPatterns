@@ -137,7 +137,7 @@ const furnitureFactory = ({ chair, sofa, table }) => ({
 const modernFurnitureFactory = furnitureFactory({
   chair: modernChair,
   table: modernTable,
-  sofa: modernSofa,
+  sofa: modernSofa,       
 });
 const victorianFurnitureFactory = furnitureFactory({
   chair: victorianChair,
